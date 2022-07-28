@@ -30,3 +30,13 @@ git clone <repo url> # clone a repo
 # using github cli
 gh repo clone <repo url> # clone a repo
 ```
+
+### Push to remote repo
+```bash
+git push <remote repo url> # push to remote repo
+```
+
+### Pull from remote repo
+```bash
+git pull <remote repo url> # pull from remote repo
+```
