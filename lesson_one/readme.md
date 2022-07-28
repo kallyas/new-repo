@@ -16,3 +16,9 @@ git status
 git add . # add all files to staging area
 git add <file name or folder> # add a single file to staging area
 ```
+
+### commiting files
+```bash
+git commit -m "message" # commit all files in staging area
+git commit -am "message" # commit all changed files in staging area
+```
