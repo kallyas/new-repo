@@ -22,3 +22,11 @@ git add <file name or folder> # add a single file to staging area
 git commit -m "message" # commit all files in staging area
 git commit -am "message" # commit all changed files in staging area
 ```
+
+### cloning a repo
+```bash
+git clone <repo url> # clone a repo
+
+# using github cli
+gh repo clone <repo url> # clone a repo
+```
