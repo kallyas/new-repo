@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page</title>
-    <link rel="stylesheet" href="page.css" type="text/css">
-</head>
-<body>
+    <link rel="stylesheet" href="page.css" type="text/css" />
+  </head>
+  <body>
     <!-- navigation bar -->
     <nav class="nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page.html">Page</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page.html">Page</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    
-</body>
+    <div class="main">
+      <div class="top-section">
+        <div class="right">
+          <img src="https://picsum.photos/200" alt="some image" />
+        </div>
+        <div class="left">
+          <div class="description">
+            <h1>Heading one</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              laborum maxime ratione adipisci earum repellendus, atque tempore
+              nam dolore est consequuntur aut nihil, fugit fugiat voluptates
+              facere exercitationem perspiciatis nobis nemo, voluptas quas.
+              Ipsum cumque magnam doloremque doloribus quae repudiandae
+              exercitationem, laudantium fuga repellat nisi asperiores.
+              Blanditiis deserunt possimus quidem.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="form">
+        <h3>Enter your details here</h3>
+        <form action="">
+          <input
+            type="text"
+            name="first_name"
+            class="form-control"
+            placeholder="Enter your first name"
+          />
+          <input
+            type="text"
+            name="last_name"
+            class="form-control"
+            placeholder="Enter your last name"
+          />
+          <input type="date" name="date_of_birth" class="form-control" />
+          <input type="button" value="Save" class="btn btn-green" />
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

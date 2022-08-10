@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 .nav {
   display: flex;
   width: 100%;
   border-bottom: 1px solid #e6e6e6;
   height: 50px;
+  font-family: 'Arvo', serif;
 }
 .nav ul {
   display: flex;
@@ -24,4 +27,97 @@ a {
 
 li {
   list-style: none;
+}
+
+.main {
+  /* background-color: red; */
+  height: 100vh;
+  /* border: 1px solid blue; */
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  height: 150px;
+}
+
+.top-section .right {
+  /* background-color: red; */
+}
+
+.top-section .left {
+  /* background-color: blue; */
+  margin-left: 50px;
+}
+
+.top-section .right img {
+  width: 100px;
+  height: 100px;
+}
+
+.top-section .left h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.top-section .left p {
+  font-size: 20px;
+  margin: 0;
+  color: red;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  height: 150px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.btn-primary {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.form h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
 }
