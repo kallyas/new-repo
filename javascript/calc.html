@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <input type="number" id="num1" />
+    <select id="operator">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option>
+    </select>
+    <input type="number" id="num2" />
+    <button type="button" id="calculate">Calculate</button>
+    <p id="result"></p>
+    <script>
+      let num1 = document.getElementById("num1");
+      let num2 = document.getElementById("num2");
+      let operator = document.getElementById("operator");
+      let btn = document.getElementById("calculate");
+      let result = document.getElementById("result");
+
+      btn.addEventListener("click", function () {
+        if (operator.value == "add") {
+          result.innerHTML = Number(num1.value) + Number(num2.value);
+        } else if (operator.value == "subtract") {
+          result.innerHTML = Number(num1.value) - Number(num2.value);
+        } else if (operator.value == "multiply") {
+          result.innerHTML = Number(num1.value) * Number(num2.value);
+        } else if (operator.value == "divide") {
+          result.innerHTML = Number(num1.value) / Number(num2.value);
+        } else {
+          result.innerHTML = "Invalid operator";
+        }
+      });
+    </script>
+  </body>
+</html>
